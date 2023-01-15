@@ -19,6 +19,7 @@ SAVE_FORMAT = "mp4"
 ```
 
 ### Current limitations:
+- Probably doesn't work on public repos (to do)
 - Does not work if there are components in the glyph you specify (to do, PRs welcome)
 - Does not work if glyph nodes have special metadata, e.g. if you use the LTTR/INK plugin
 - Does not support UFO (could generalize this to support `.glif` as well)
