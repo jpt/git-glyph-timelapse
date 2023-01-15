@@ -18,11 +18,15 @@ SAVE_DIR = "~/Desktop"
 SAVE_FORMAT = "mp4"
 ```
 
-### Current limitations:
-- Probably doesn't work on public repos (to do)
-- Does not work if there are components in the glyph you specify (to do, PRs welcome)
+### Current limitations (things to fix, decide not to fix, or create issues for):
+- Probably doesn't work on public repos
+- Doesn't support .glyphs, only .glyphspackage
+- Does not work if there are components in the glyph you specify
 - Does not work if glyph nodes have special metadata, e.g. if you use the LTTR/INK plugin
 - Does not support UFO (could generalize this to support `.glif` as well)
 - Code is a mess!
+
+### Things to refactor:
+- Instead of using the GitHub API, generalize this to work with local git; for GitHub support, optionally clone a remote repo that you have permission to. This will transfer more data but create far fewer network requests when requesting glyphs vs. loading them directly from a local git repo. 
 
 Free, without warranty software. Not responsible for etc.!
