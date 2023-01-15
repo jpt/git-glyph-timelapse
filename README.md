@@ -27,6 +27,6 @@ SAVE_FORMAT = "mp4"
 - Code is a mess!
 
 ### Things to refactor:
-- Instead of using the GitHub API, generalize this to work with local git; for GitHub support, optionally clone a remote repo that you have permission to. This will transfer more data but create far fewer network requests when requesting glyphs vs. loading them directly from a local git repo. 
+- Instead of using the GitHub API, generalize this to work with local git; for GitHub support, optionally clone a remote repo that you have permission to. This will transfer more data, but once there is support for components, the benefit will be worth it because it will create far fewer network requests by  loading glyphs directly from a local git repo rather than requesting each one from GitHub
 
 Free, without warranty software. Not responsible for etc.!
