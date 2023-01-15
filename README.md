@@ -2,7 +2,7 @@
 
 This tool converts the git history of Glyphs .glyph files (Glyphspackage format) into an animation using DrawBot.
 
-[s](https://user-images.githubusercontent.com/5319916/212504691-6e5db4b5-6e5c-4c8f-b6d7-b250431fef80.gif)
+![Animated "s"](https://user-images.githubusercontent.com/5319916/212504691-6e5db4b5-6e5c-4c8f-b6d7-b250431fef80.gif)
 
 To install, make sure DrawBot has `openstep_plist`, `requests` and `base64` python packages installed. To use, modify these variables in `index.py` and run:
 
