@@ -1,6 +1,8 @@
 # git-glyph-timelapse
 
-This tool converts the git history of Glyphs .glyph files (Glyphspackage) into an animation using DrawBot.
+This tool converts the git history of Glyphs .glyph files (Glyphspackage format) into an animation using DrawBot.
+
+[s](https://user-images.githubusercontent.com/5319916/212504691-6e5db4b5-6e5c-4c8f-b6d7-b250431fef80.gif)
 
 To install, make sure DrawBot has `openstep_plist`, `requests` and `base64` python packages installed. To use, modify these variables in `index.py` and run:
 
@@ -22,4 +24,4 @@ SAVE_FORMAT = "mp4"
 - Does not support UFO (could generalize this to support `.glif` as well)
 - Code is a mess!
 
-Free, without warranty software. Not responsible for etc.
+Free, without warranty software. Not responsible for etc.!
